@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C11640C117024F750000B824 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11640C017024F750000B824 /* UIKit.framework */; };
+		C11640C317024F750000B824 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11640C217024F750000B824 /* Foundation.framework */; };
+		C11640C517024F750000B824 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11640C417024F750000B824 /* CoreGraphics.framework */; };
+		C11640CB17024F750000B824 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C11640C917024F750000B824 /* InfoPlist.strings */; };
+		C11640CD17024F750000B824 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C11640CC17024F750000B824 /* main.m */; };
+		C11640D117024F750000B824 /* GKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C11640D017024F750000B824 /* GKAppDelegate.m */; };
+		C11640D317024F750000B824 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640D217024F750000B824 /* Default.png */; };
+		C11640D517024F750000B824 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640D417024F750000B824 /* Default@2x.png */; };
+		C11640D717024F750000B824 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640D617024F750000B824 /* Default-568h@2x.png */; };
+		C11640DA17024F750000B824 /* GKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11640D917024F750000B824 /* GKViewController.m */; };
+		C11640DD17024F750000B824 /* GKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11640DB17024F750000B824 /* GKViewController.xib */; };
+		C11640EA17024FF00000B824 /* GIKPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C11640E517024FF00000B824 /* GIKPopoverBackgroundView.m */; };
+		C11640EB17024FF00000B824 /* GKPopoverAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = C11640E717024FF00000B824 /* GKPopoverAttributes.m */; };
+		C11640EC17024FF00000B824 /* GKPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11640E917024FF00000B824 /* GKPopoverController.m */; };
+		C11640EE170250450000B824 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11640ED170250450000B824 /* QuartzCore.framework */; };
+		C11640FE170250C30000B824 /* PopoverBackgroundArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640F0170250C30000B824 /* PopoverBackgroundArrowDown.png */; };
+		C11640FF170250C30000B824 /* PopoverBackgroundArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640F1170250C30000B824 /* PopoverBackgroundArrowDown@2x.png */; };
+		C1164100170250C30000B824 /* PopoverBackgroundArrowDownRight.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640F2170250C30000B824 /* PopoverBackgroundArrowDownRight.png */; };
+		C1164101170250C30000B824 /* PopoverBackgroundArrowDownRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640F3170250C30000B824 /* PopoverBackgroundArrowDownRight@2x.png */; };
+		C1164102170250C30000B824 /* PopoverBackgroundArrowSide.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640F4170250C30000B824 /* PopoverBackgroundArrowSide.png */; };
+		C1164103170250C30000B824 /* PopoverBackgroundArrowSide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640F5170250C30000B824 /* PopoverBackgroundArrowSide@2x.png */; };
+		C1164104170250C30000B824 /* PopoverBackgroundArrowSideBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640F6170250C30000B824 /* PopoverBackgroundArrowSideBottom.png */; };
+		C1164105170250C30000B824 /* PopoverBackgroundArrowSideBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640F7170250C30000B824 /* PopoverBackgroundArrowSideBottom@2x.png */; };
+		C1164106170250C30000B824 /* PopoverBackgroundArrowSideTop.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640F8170250C30000B824 /* PopoverBackgroundArrowSideTop.png */; };
+		C1164107170250C30000B824 /* PopoverBackgroundArrowSideTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640F9170250C30000B824 /* PopoverBackgroundArrowSideTop@2x.png */; };
+		C1164108170250C30000B824 /* PopoverBackgroundArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640FA170250C30000B824 /* PopoverBackgroundArrowUp.png */; };
+		C1164109170250C30000B824 /* PopoverBackgroundArrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640FB170250C30000B824 /* PopoverBackgroundArrowUp@2x.png */; };
+		C116410A170250C30000B824 /* PopoverBackgroundArrowUpRight.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640FC170250C30000B824 /* PopoverBackgroundArrowUpRight.png */; };
+		C116410B170250C30000B824 /* PopoverBackgroundArrowUpRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11640FD170250C30000B824 /* PopoverBackgroundArrowUpRight@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C11640BD17024F750000B824 /* GKPopoverController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKPopoverController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11640C017024F750000B824 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C11640C217024F750000B824 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C11640C417024F750000B824 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C11640C817024F750000B824 /* GKPopoverController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKPopoverController-Info.plist"; sourceTree = "<group>"; };
+		C11640CA17024F750000B824 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C11640CC17024F750000B824 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C11640CE17024F750000B824 /* GKPopoverController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKPopoverController-Prefix.pch"; sourceTree = "<group>"; };
+		C11640CF17024F750000B824 /* GKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKAppDelegate.h; sourceTree = "<group>"; };
+		C11640D017024F750000B824 /* GKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKAppDelegate.m; sourceTree = "<group>"; };
+		C11640D217024F750000B824 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C11640D417024F750000B824 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C11640D617024F750000B824 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C11640D817024F750000B824 /* GKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKViewController.h; sourceTree = "<group>"; };
+		C11640D917024F750000B824 /* GKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKViewController.m; sourceTree = "<group>"; };
+		C11640DC17024F750000B824 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GKViewController.xib; sourceTree = "<group>"; };
+		C11640E417024FF00000B824 /* GIKPopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIKPopoverBackgroundView.h; path = Classes/GIKPopoverBackgroundView.h; sourceTree = SOURCE_ROOT; };
+		C11640E517024FF00000B824 /* GIKPopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIKPopoverBackgroundView.m; path = Classes/GIKPopoverBackgroundView.m; sourceTree = SOURCE_ROOT; };
+		C11640E617024FF00000B824 /* GKPopoverAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKPopoverAttributes.h; path = Classes/GKPopoverAttributes.h; sourceTree = SOURCE_ROOT; };
+		C11640E717024FF00000B824 /* GKPopoverAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKPopoverAttributes.m; path = Classes/GKPopoverAttributes.m; sourceTree = SOURCE_ROOT; };
+		C11640E817024FF00000B824 /* GKPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKPopoverController.h; path = Classes/GKPopoverController.h; sourceTree = SOURCE_ROOT; };
+		C11640E917024FF00000B824 /* GKPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKPopoverController.m; path = Classes/GKPopoverController.m; sourceTree = SOURCE_ROOT; };
+		C11640ED170250450000B824 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C11640F0170250C30000B824 /* PopoverBackgroundArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PopoverBackgroundArrowDown.png; path = Images/PopoverBackgroundArrowDown.png; sourceTree = SOURCE_ROOT; };
+		C11640F1170250C30000B824 /* PopoverBackgroundArrowDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PopoverBackgroundArrowDown@2x.png"; path = "Images/PopoverBackgroundArrowDown@2x.png"; sourceTree = SOURCE_ROOT; };
+		C11640F2170250C30000B824 /* PopoverBackgroundArrowDownRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PopoverBackgroundArrowDownRight.png; path = Images/PopoverBackgroundArrowDownRight.png; sourceTree = SOURCE_ROOT; };
+		C11640F3170250C30000B824 /* PopoverBackgroundArrowDownRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PopoverBackgroundArrowDownRight@2x.png"; path = "Images/PopoverBackgroundArrowDownRight@2x.png"; sourceTree = SOURCE_ROOT; };
+		C11640F4170250C30000B824 /* PopoverBackgroundArrowSide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PopoverBackgroundArrowSide.png; path = Images/PopoverBackgroundArrowSide.png; sourceTree = SOURCE_ROOT; };
+		C11640F5170250C30000B824 /* PopoverBackgroundArrowSide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PopoverBackgroundArrowSide@2x.png"; path = "Images/PopoverBackgroundArrowSide@2x.png"; sourceTree = SOURCE_ROOT; };
+		C11640F6170250C30000B824 /* PopoverBackgroundArrowSideBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PopoverBackgroundArrowSideBottom.png; path = Images/PopoverBackgroundArrowSideBottom.png; sourceTree = SOURCE_ROOT; };
+		C11640F7170250C30000B824 /* PopoverBackgroundArrowSideBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PopoverBackgroundArrowSideBottom@2x.png"; path = "Images/PopoverBackgroundArrowSideBottom@2x.png"; sourceTree = SOURCE_ROOT; };
+		C11640F8170250C30000B824 /* PopoverBackgroundArrowSideTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PopoverBackgroundArrowSideTop.png; path = Images/PopoverBackgroundArrowSideTop.png; sourceTree = SOURCE_ROOT; };
+		C11640F9170250C30000B824 /* PopoverBackgroundArrowSideTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PopoverBackgroundArrowSideTop@2x.png"; path = "Images/PopoverBackgroundArrowSideTop@2x.png"; sourceTree = SOURCE_ROOT; };
+		C11640FA170250C30000B824 /* PopoverBackgroundArrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PopoverBackgroundArrowUp.png; path = Images/PopoverBackgroundArrowUp.png; sourceTree = SOURCE_ROOT; };
+		C11640FB170250C30000B824 /* PopoverBackgroundArrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PopoverBackgroundArrowUp@2x.png"; path = "Images/PopoverBackgroundArrowUp@2x.png"; sourceTree = SOURCE_ROOT; };
+		C11640FC170250C30000B824 /* PopoverBackgroundArrowUpRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PopoverBackgroundArrowUpRight.png; path = Images/PopoverBackgroundArrowUpRight.png; sourceTree = SOURCE_ROOT; };
+		C11640FD170250C30000B824 /* PopoverBackgroundArrowUpRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PopoverBackgroundArrowUpRight@2x.png"; path = "Images/PopoverBackgroundArrowUpRight@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11640BA17024F750000B824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11640EE170250450000B824 /* QuartzCore.framework in Frameworks */,
+				C11640C117024F750000B824 /* UIKit.framework in Frameworks */,
+				C11640C317024F750000B824 /* Foundation.framework in Frameworks */,
+				C11640C517024F750000B824 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C11640B417024F750000B824 = {
+			isa = PBXGroup;
+			children = (
+				C11640C617024F750000B824 /* GKPopoverController */,
+				C11640BF17024F750000B824 /* Frameworks */,
+				C11640BE17024F750000B824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11640BE17024F750000B824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11640BD17024F750000B824 /* GKPopoverController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11640BF17024F750000B824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C11640ED170250450000B824 /* QuartzCore.framework */,
+				C11640C017024F750000B824 /* UIKit.framework */,
+				C11640C217024F750000B824 /* Foundation.framework */,
+				C11640C417024F750000B824 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C11640C617024F750000B824 /* GKPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				C11640EF170250B80000B824 /* GKImages */,
+				C11640E317024FE60000B824 /* GKClasses */,
+				C11640CF17024F750000B824 /* GKAppDelegate.h */,
+				C11640D017024F750000B824 /* GKAppDelegate.m */,
+				C11640D817024F750000B824 /* GKViewController.h */,
+				C11640D917024F750000B824 /* GKViewController.m */,
+				C11640DB17024F750000B824 /* GKViewController.xib */,
+				C11640C717024F750000B824 /* Supporting Files */,
+			);
+			path = GKPopoverController;
+			sourceTree = "<group>";
+		};
+		C11640C717024F750000B824 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C11640C817024F750000B824 /* GKPopoverController-Info.plist */,
+				C11640C917024F750000B824 /* InfoPlist.strings */,
+				C11640CC17024F750000B824 /* main.m */,
+				C11640CE17024F750000B824 /* GKPopoverController-Prefix.pch */,
+				C11640D217024F750000B824 /* Default.png */,
+				C11640D417024F750000B824 /* Default@2x.png */,
+				C11640D617024F750000B824 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C11640E317024FE60000B824 /* GKClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C11640E417024FF00000B824 /* GIKPopoverBackgroundView.h */,
+				C11640E517024FF00000B824 /* GIKPopoverBackgroundView.m */,
+				C11640E617024FF00000B824 /* GKPopoverAttributes.h */,
+				C11640E717024FF00000B824 /* GKPopoverAttributes.m */,
+				C11640E817024FF00000B824 /* GKPopoverController.h */,
+				C11640E917024FF00000B824 /* GKPopoverController.m */,
+			);
+			name = GKClasses;
+			sourceTree = "<group>";
+		};
+		C11640EF170250B80000B824 /* GKImages */ = {
+			isa = PBXGroup;
+			children = (
+				C11640F0170250C30000B824 /* PopoverBackgroundArrowDown.png */,
+				C11640F1170250C30000B824 /* PopoverBackgroundArrowDown@2x.png */,
+				C11640F2170250C30000B824 /* PopoverBackgroundArrowDownRight.png */,
+				C11640F3170250C30000B824 /* PopoverBackgroundArrowDownRight@2x.png */,
+				C11640F4170250C30000B824 /* PopoverBackgroundArrowSide.png */,
+				C11640F5170250C30000B824 /* PopoverBackgroundArrowSide@2x.png */,
+				C11640F6170250C30000B824 /* PopoverBackgroundArrowSideBottom.png */,
+				C11640F7170250C30000B824 /* PopoverBackgroundArrowSideBottom@2x.png */,
+				C11640F8170250C30000B824 /* PopoverBackgroundArrowSideTop.png */,
+				C11640F9170250C30000B824 /* PopoverBackgroundArrowSideTop@2x.png */,
+				C11640FA170250C30000B824 /* PopoverBackgroundArrowUp.png */,
+				C11640FB170250C30000B824 /* PopoverBackgroundArrowUp@2x.png */,
+				C11640FC170250C30000B824 /* PopoverBackgroundArrowUpRight.png */,
+				C11640FD170250C30000B824 /* PopoverBackgroundArrowUpRight@2x.png */,
+			);
+			name = GKImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11640BC17024F750000B824 /* GKPopoverController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11640E017024F750000B824 /* Build configuration list for PBXNativeTarget "GKPopoverController" */;
+			buildPhases = (
+				C11640B917024F750000B824 /* Sources */,
+				C11640BA17024F750000B824 /* Frameworks */,
+				C11640BB17024F750000B824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKPopoverController;
+			productName = GKPopoverController;
+			productReference = C11640BD17024F750000B824 /* GKPopoverController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C11640B517024F750000B824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Georg Kitz";
+			};
+			buildConfigurationList = C11640B817024F750000B824 /* Build configuration list for PBXProject "GKPopoverController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C11640B417024F750000B824;
+			productRefGroup = C11640BE17024F750000B824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11640BC17024F750000B824 /* GKPopoverController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11640BB17024F750000B824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11640CB17024F750000B824 /* InfoPlist.strings in Resources */,
+				C11640D317024F750000B824 /* Default.png in Resources */,
+				C11640D517024F750000B824 /* Default@2x.png in Resources */,
+				C11640D717024F750000B824 /* Default-568h@2x.png in Resources */,
+				C11640DD17024F750000B824 /* GKViewController.xib in Resources */,
+				C11640FE170250C30000B824 /* PopoverBackgroundArrowDown.png in Resources */,
+				C11640FF170250C30000B824 /* PopoverBackgroundArrowDown@2x.png in Resources */,
+				C1164100170250C30000B824 /* PopoverBackgroundArrowDownRight.png in Resources */,
+				C1164101170250C30000B824 /* PopoverBackgroundArrowDownRight@2x.png in Resources */,
+				C1164102170250C30000B824 /* PopoverBackgroundArrowSide.png in Resources */,
+				C1164103170250C30000B824 /* PopoverBackgroundArrowSide@2x.png in Resources */,
+				C1164104170250C30000B824 /* PopoverBackgroundArrowSideBottom.png in Resources */,
+				C1164105170250C30000B824 /* PopoverBackgroundArrowSideBottom@2x.png in Resources */,
+				C1164106170250C30000B824 /* PopoverBackgroundArrowSideTop.png in Resources */,
+				C1164107170250C30000B824 /* PopoverBackgroundArrowSideTop@2x.png in Resources */,
+				C1164108170250C30000B824 /* PopoverBackgroundArrowUp.png in Resources */,
+				C1164109170250C30000B824 /* PopoverBackgroundArrowUp@2x.png in Resources */,
+				C116410A170250C30000B824 /* PopoverBackgroundArrowUpRight.png in Resources */,
+				C116410B170250C30000B824 /* PopoverBackgroundArrowUpRight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11640B917024F750000B824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11640CD17024F750000B824 /* main.m in Sources */,
+				C11640D117024F750000B824 /* GKAppDelegate.m in Sources */,
+				C11640DA17024F750000B824 /* GKViewController.m in Sources */,
+				C11640EA17024FF00000B824 /* GIKPopoverBackgroundView.m in Sources */,
+				C11640EB17024FF00000B824 /* GKPopoverAttributes.m in Sources */,
+				C11640EC17024FF00000B824 /* GKPopoverController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C11640C917024F750000B824 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11640CA17024F750000B824 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C11640DB17024F750000B824 /* GKViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11640DC17024F750000B824 /* en */,
+			);
+			name = GKViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C11640DE17024F750000B824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C11640DF17024F750000B824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11640E117024F750000B824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKPopoverController/GKPopoverController-Prefix.pch";
+				INFOPLIST_FILE = "GKPopoverController/GKPopoverController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C11640E217024F750000B824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKPopoverController/GKPopoverController-Prefix.pch";
+				INFOPLIST_FILE = "GKPopoverController/GKPopoverController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11640B817024F750000B824 /* Build configuration list for PBXProject "GKPopoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11640DE17024F750000B824 /* Debug */,
+				C11640DF17024F750000B824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11640E017024F750000B824 /* Build configuration list for PBXNativeTarget "GKPopoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11640E117024F750000B824 /* Debug */,
+				C11640E217024F750000B824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C11640B517024F750000B824 /* Project object */;
+}
